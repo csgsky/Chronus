@@ -1,4 +1,4 @@
-package com.csgsky.chronus
+package com.csgsky.cscommon
 
 import org.junit.Test
 

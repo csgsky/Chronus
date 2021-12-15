@@ -1,8 +1,10 @@
-package com.csgsky.chronus;
+package com.csgsky.chronustest;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.csgsky.cscommon.Test;
 
 public class MainActivity extends AppCompatActivity {
 
