@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void monitorError(@NotNull String errorType, @NotNull String errorLog) {
                 Log.i("MessageMonitor", "errorType: " + errorType + " , errorLog: " + errorLog);
+                Log.i("MessageMonitor", "errorType1: " + errorType + " , errorLog1: " + errorLog);
             }
         });
 
