@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         start.setOnClickListener(v -> {
             Log.d("MessageMonitorLog", "--------start----------------");
             Log.d("MessageMonitorLog", "--------start-----1-----------");
+            Log.d("MessageMonitorLog", "--------start-----2-----------");
             MonitorConfig monitorConfig = MessageMonitorBuilder.startBuilder()
                     .setCatDuration(2000L)
                     .setSaveCount(500)
